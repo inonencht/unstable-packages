@@ -70,7 +70,7 @@ build-x86_64:
 upload-packages:
   stage: deploy
   only:
-    - master@xeffyr/unstable-packages
+    - android-5@xeffyr/unstable-packages
   script:
     - MODIFIED_PACKAGES=$(./scripts/get-modified-packages.sh)
     - |
