@@ -3,6 +3,7 @@ TERMUX_PKG_DESCRIPTION="Advanced open-source platform for developing, testing, a
 TERMUX_PKG_LICENSE="BSD"
 TERMUX_PKG_MAINTAINER="Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr"
 TERMUX_PKG_VERSION=4.17.37
+TERMUX_PKG_REVISION=1
 TERMUX_PKG_SRCURL=https://github.com/rapid7/metasploit-framework/archive/$TERMUX_PKG_VERSION.tar.gz
 TERMUX_PKG_SHA256=50ab4628b9801674dd8a57de431d9d5c68c820a59116d54d8e07067d306b4aa1
 TERMUX_PKG_PLATFORM_INDEPENDENT=true
